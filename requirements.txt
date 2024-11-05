@@ -1,7 +1,7 @@
 # core deps
 numpy==1.22.0;python_version<="3.10"
 numpy>=1.24.3;python_version>"3.10"
-cython>=0.29.30
+cython==3.0.5
 scipy>=1.11.2
 torch>=2.1
 torchaudio
@@ -54,4 +54,4 @@ encodec>=0.1.1
 # deps for XTTS
 unidecode>=1.3.2
 num2words
-spacy[ja]>=3
+spacy[ja]==3.7.4
